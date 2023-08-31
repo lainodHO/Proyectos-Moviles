@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFAA00"
+    android:orientation="vertical" >
+    
+                           <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Koromon"
+         android:background="#FF94C4"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral2"/>
+                    
+                   <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Agumon"
+        android:background="#001061"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral3"/>
+                   
+                  <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Greymon"
+        android:background="#7F0606"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral4"/>
+                  
+                  <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="MetalGreymon"
+        android:background="#1682C4"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral5"/>
+                  
+                                    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="WarGreymon"
+        android:background="#AD4413"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral6"/>
+                   
+                     <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Volver"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="cerrar_apli"/>
+                     
+       <ImageView
+            android:layout_width="320"
+            android:layout_height="400"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+             android:gravity="center"
+            android:src="@drawable/agu" />
+    
+
+</LinearLayout>

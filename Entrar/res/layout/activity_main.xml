@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#000888"
+        android:gravity="center_vertical"
+        android:text="Nombre"
+        android:textSize="30dp"
+         android:textColor="#FF5B38"
+       />
+            
+            
+ <EditText
+        android:id="@+id/a_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+ 
+             <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#000888"
+        android:gravity="center_vertical"
+        android:text="Edad"
+        android:textSize="30dp"
+        android:textColor="#FF5B38"
+       />
+            
+            
+ <EditText
+        android:id="@+id/a_edad"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+ 
+        <Botton
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="A C E P T A R"
+        android:background="#888888"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:onClick="aceptar"/>
+        
+                 <TextView
+        android:id="@+id/a_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#000888"
+        android:gravity="center_vertical"
+        android:text="Resultado"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+        
+        </LinearLayout>

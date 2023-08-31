@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+<LinearLayout
+    android:id="@+id/lay1"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#FFFF00"
+    android:orientation="vertical" >
+    
+        <TextView
+        android:id="@+id/text1"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Hernandez"
+        android:textColor="#0400FF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"  />
+       
+        
+</LinearLayout>
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<LinearLayout
+    android:id="@+id/lay2"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#FF0000"
+    android:orientation="vertical" > 
+  
+        <TextView
+        android:id="@+id/text2"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Olague"
+        android:textColor="#0400FF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"  />
+
+    </LinearLayout>
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#000000"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal" > 
+         <Botton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="INVERTIR"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:onClick="invertir"
+        android:layout_weight="1" />
+          
+                <Botton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="REGRESAR"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:onClick="regresar"
+        android:layout_weight="1" />
+        
+
+    </LinearLayout>
+    </LinearLayout>

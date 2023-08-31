@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FC0000"
+    android:orientation="vertical" >
+    
+           <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_gravity="center"
+        android:text="Tu respuesta es incorrecta"
+        android:textColor="#204420"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    
+                                     <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Regresar"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral2"/>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Delicias Chihuahua"
+        android:textColor="#0400FF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" 
+        android:layout_gravity="center"  />
+        
+                <TextView
+        android:id="@+id/textView1"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Mexico"
+        android:textColor="#0400FF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" 
+        android:layout_gravity="center"  />
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#000000"
+    android:orientation="horizontal" >
+    
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="1 8 1 0"
+            android:textColor="#0400FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical" 
+            android:gravity="center" />
+                <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="2 0 1 9"
+            android:textColor="#0400FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical" 
+            android:gravity="center"/>
+        
+</LinearLayout>
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#FF0000"
+    android:orientation="horizontal" > 
+    
+            <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:textColor="#0400FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#FF0000"
+            android:layout_gravity="center_vertical" 
+            android:gravity="center"/>
+            
+              <TextView
+                  android:layout_width="109dp"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center_vertical"
+                  android:background="#FFFFFF"
+                  android:gravity="center"
+                  android:textColor="#0400FF"
+                  android:textSize="20dp"
+                  android:textStyle="bold" />
+              
+                    <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:textColor="#0400FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#13920B"
+            android:layout_gravity="center_vertical" 
+            android:gravity="center"/>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+<LinearLayout  
+    <ImageView
+        android:layout_width="match_parent"
+         android:layout_heirh="40dp"
+          android:src="@drawable/titulo"
+          android:layout_marginTop="10dp"
+    </LinearLayout>

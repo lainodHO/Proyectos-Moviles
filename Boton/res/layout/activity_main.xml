@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+        <TextView
+        android:id="@+id/primero"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Delicias Chihuahua"
+        android:textColor="#0400FF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" 
+        android:layout_gravity="center"  />
+        
+                <TextView
+        android:id="@+id/segundo"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Delicias Chihuahua"
+        android:textColor="#0400FF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" 
+        android:layout_gravity="center"  />
+                
+                <Botton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ACEPTAR"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:onClick="Chango"/>
+                    
+</LinearLayout>               
+                

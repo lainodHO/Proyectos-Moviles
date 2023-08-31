@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00FF80"
+    android:orientation="vertical" >
+                    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Agumon"
+         android:background="#FFAA00"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral2"/>
+                    
+                   <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Gabumon"
+        android:background="#001061"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral3"/>
+                   
+                  <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Guilmon"
+        android:background="#7F0606"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral4"/>
+                  
+                  <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Exv-mon"
+        android:background="#1682C4"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="pasaral5"/>
+                   
+                     <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Cerrar"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:onClick="cerrar_apli"/>
+                     
+                 <ImageView
+            android:layout_width="320"
+            android:layout_height="180"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+             android:gravity="center"
+            android:src="@drawable/d" />
+
+</LinearLayout>

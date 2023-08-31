@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_segunda">Segunda</string>
+    <string name="title_activity_segunda1">Segunda1</string>
+    <string name="title_activity_tercera1">Tercera1</string>
+    <string name="title_activity_cuarta1">Cuarta1</string>
+    <string name="title_activity_quinta1">Quinta1</string>
+    <string name="title_activity_sexta1">Sexta1</string>
+    <string name="title_activity_tercera">Tercera</string>
+    <string name="title_activity_cuarta">Cuarta</string>
+    <string name="title_activity_quinta">Quinta</string>
+
+</resources>
